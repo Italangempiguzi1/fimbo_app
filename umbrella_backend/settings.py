@@ -12,7 +12,7 @@ SECRET_KEY = config('SECRET_KEY', default='unsafe-dev-secret-key-change-me')
 DEBUG = config('DEBUG', default=False, cast=bool)
 # ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='https://fimbo-app.onrender.com', cast=Csv())
 ALLOWED_HOSTS = [
-    "fimbo-2qyw.onrender.com",
+    "fimbo-app-1.onrender.com",
     "localhost",
     "127.0.0.1",
 ]
@@ -170,7 +170,7 @@ CSRF_COOKIE_SECURE = config('CSRF_COOKIE_SECURE', default=False, cast=bool)
 
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://fimbo-2qyw.onrender.com",
+    "https://fimbo-app-1.onrender.com/",
 ]
 
 
